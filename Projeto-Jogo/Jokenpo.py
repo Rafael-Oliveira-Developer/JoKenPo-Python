@@ -6,18 +6,19 @@ computador = random.randint(1, 3)
 mais = "S"
 while mais == "S" or "s":
     computador = random.randint(1, 3)
-    jogador = int(input('''Escolha uma opção:
+    jogador = input('''Escolha uma opção:
     [1] PEDRA
     [2] PAPEL
     [3] TESOURA
-    ESCOLHA: '''))
-    while jogador != 1 and jogador != 2 and jogador != 3:  # se escolher uma opção incorreta
+    ESCOLHA: ''')
+    while jogador != '1' and jogador != '2' and jogador != '3':  # se escolher uma opção incorreta
             print('VAI ESCOLHA UMA DAS OPÇÕES AÍ...')
-            jogador = int(input('''Escolha uma opção:
+            jogador = input('''Escolha uma opção:
     [1] PEDRA
     [2] PAPEL
     [3] TESOURA
-        ESCOLHA: '''))
+        ESCOLHA: ''')
+    jogador = int(jogador)    
     print('JO')
     sleep(0.5)
     print('KEN')
