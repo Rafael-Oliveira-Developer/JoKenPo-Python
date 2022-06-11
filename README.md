@@ -1,15 +1,20 @@
 # JoKenPo-Python
- Projeto de jogo de JoKenPo em Python.
+ JoKenPo game project in Python.
  
- Repositório criado com ênfase básica da línguagem.
+ Repository created with basic language emphasis.
  
  
- Obs:
- Fique a vontade para fazer alterações no código
- porém deixe um commit da atualização feita.
+ Note:
+ 
+ Feel free to make changes to the code
+ but leave a commit of the update made.
 
-# Módulos necessários
+# Required Modules
 
 ramdom
 
 emoji
+
+# Play/Run
+
+Run Python file
